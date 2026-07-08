@@ -13,6 +13,9 @@ public class Main {
         sol.pattern4(n);
         sol.pattern5(n);
         sol.pattern6(n);
+        sol.pattern7(n);
+        sol.pattern8(n);
+
 
 
     }
