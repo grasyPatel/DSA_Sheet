@@ -202,5 +202,177 @@ public class Solution {
 
         }
     }
+    public void pattern17(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            char c='A';
+            for(int j=1;j<=i;j++){
+                System.out.print(c);
+                c++;
+            }
+            c-=2;
+            for(int j=1;j<i;j++){
+
+                System.out.print(c);
+                c--;
+
+            }
+            System.out.println();
+        }
+    }
+    public void pattern18(int n){
+        char c=(char)('A'+n-1);
+        for(int i=1;i<=n;i++){
+            char innerc=c;
+            for(int j=1;j<=i;j++){
+                System.out.print(innerc);
+                innerc++;
+
+
+            }
+            c--;
+            System.out.println();
+        }
+    }
+
+    public  void pattern19(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i+1;j++){
+                System.out.print("*");
+            }
+            for(int j=1;j<i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n-i+1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+
+
+        }
+        //second half
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+
+    }
+
+    public void pattern20(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=1;i<n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print("*");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n-i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+
+    }
+
+    public void pattern21(int n){
+        for(int i=1;i<=n;i++){
+            if(i==1 || i==n){
+                for(int j=1;j<=n;j++){
+                    System.out.print("*");
+                }
+            }
+            else{
+                System.out.print("*");
+                for(int j=1;j<n-1;j++){
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public void pattern22(int n){
+        for(int i=1;i<=n;i++){
+            int m=n;
+            for(int j=1;j<i;j++){
+                System.out.print(m+" ");
+                m--;
+            }
+            for(int j=1;j<=m;j++){
+                System.out.print(m+" ");
+            }
+            for(int j=1;j<m;j++){
+                System.out.print(m+" ");
+            }
+            m++;
+            for(int j=1;j<i;j++){
+                System.out.print(m+" ");
+                m++;
+            }
+            System.out.println();
+
+        }
+        int m=2;
+        for(int i=1;i<n;i++){
+
+
+            for(int j=1;j<=n-m;j++){
+                System.out.print(n-j+1 +" ");
+            }
+            for(int j=1;j<=m;j++){
+                System.out.print(m+" ");
+            }
+           for(int j=1;j<m-1;j++){
+               System.out.print(m+" ");
+           }
+           int k=m;
+           for(int j=1;j<=n-m+1;j++){
+               System.out.print(k+" ");
+               k++;
+           }
+           m++;
+           System.out.println();
+
+        }
+    }
+
 
 }

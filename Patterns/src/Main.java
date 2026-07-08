@@ -23,6 +23,12 @@ public class Main {
 //        sol.pattern14(n);
 //        sol.pattern15(n);
 //        sol.pattern16(n);
+//        sol.pattern17(n);
+//        sol.pattern18(n);
+//        sol.pattern19(n);
+//        sol.pattern20(n);
+//        sol.pattern21(n);
+        sol.pattern22(n);
 
 
 
