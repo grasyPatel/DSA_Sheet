@@ -7,14 +7,24 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         Solution sol=new Solution();
-        sol.pattern1(n);
-        sol.pattern2(n);
-        sol.pattern3(n);
-        sol.pattern4(n);
-        sol.pattern5(n);
-        sol.pattern6(n);
-        sol.pattern7(n);
-        sol.pattern8(n);
+//        sol.pattern1(n);
+//        sol.pattern2(n);
+//        sol.pattern3(n);
+//        sol.pattern4(n);
+//        sol.pattern5(n);
+//        sol.pattern6(n);
+//        sol.pattern7(n);
+//        sol.pattern8(n);
+//        sol.pattern9(n);
+//        sol.pattern10(n);
+//        sol.pattern11(n);
+//        sol.pattern12(n);
+//        sol.pattern13(n);
+//        sol.pattern14(n);
+//        sol.pattern15(n);
+//        sol.pattern16(n);
+
+
 
 
 
