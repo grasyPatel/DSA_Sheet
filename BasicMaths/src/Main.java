@@ -20,6 +20,25 @@ public class Main {
 //        Palindrome obj3=new Palindrome();
 //        System.out.print(obj3.isPalindrome(n));
 
+//        Q4--
+//        int a=sc.nextInt();
+//        int b=sc.nextInt();
+//        GCD obj4 =new GCD();
+//        System.out.println(obj4.isGCD(a,b));
+
+//        Q5--
+//        Armstrong obj5=new Armstrong();
+//        System.out.println(obj5.isArmstrong(n));
+
+//        Q6--
+//        Divisors obj6=new Divisors();
+//        System.out.println(obj6.isDivisor(n));
+
+//        Q7--
+//        Prime obj7 =new Prime();
+//        System.out.println(obj7.isPrime(n));
+//
+
 
 
 
