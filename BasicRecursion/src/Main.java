@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-//        int n=sc.nextInt();
+        int n=sc.nextInt();
 
 //        Q1--
 //        PrintNumbers obj1=new PrintNumbers();
@@ -35,9 +35,14 @@ public class Main {
 //          System.out.println("Reversed Array "+Arrays.toString(obj5.reverseAnArray(arr,0,n-1)));
 
 //        Q6--
-        String s =sc.nextLine();
-        Palindrome obj6=new Palindrome();
-        System.out.println(obj6.isPalindrome(s,0,s.length()-1));
+//        String s =sc.nextLine();
+//        Palindrome obj6=new Palindrome();
+//        System.out.println(obj6.isPalindrome(s,0,s.length()-1));
+
+//        Q7--
+//        Fibonacci obj7=new Fibonacci();
+//        System.out.println(obj7.printFibo(n));
+
 
 
 
