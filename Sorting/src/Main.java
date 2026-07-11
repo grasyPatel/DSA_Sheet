@@ -14,9 +14,14 @@ public class Main {
         }
 
 //        Sort1--
-        SelectionSort obj1=new SelectionSort();
-        System.out.println("Unsorted Array "+ Arrays.toString(arr));
-        System.out.println("Sorted Array "+Arrays.toString(obj1.Sorting(arr,n)));
+//        SelectionSort obj1=new SelectionSort();
+//        System.out.println("Unsorted Array "+ Arrays.toString(arr));
+//        System.out.println("Sorted Array "+Arrays.toString(obj1.Sorting(arr,n)));
+
+//        Sort2--
+        BubbleSort obj2=new BubbleSort();
+        System.out.println("Unsorted Array "+Arrays.toString(arr));
+        System.out.println("Sorted Array "+Arrays.toString(obj2.sorting(arr,n)));
 
 
     }
