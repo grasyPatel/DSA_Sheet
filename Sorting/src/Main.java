@@ -19,9 +19,13 @@ public class Main {
 //        System.out.println("Sorted Array "+Arrays.toString(obj1.Sorting(arr,n)));
 
 //        Sort2--
-        BubbleSort obj2=new BubbleSort();
+//        BubbleSort obj2=new BubbleSort();
+//        System.out.println("Unsorted Array "+Arrays.toString(arr));
+//        System.out.println("Sorted Array "+Arrays.toString(obj2.sorting(arr,n)));
+
+        InsertionSort obj3=new InsertionSort();
         System.out.println("Unsorted Array "+Arrays.toString(arr));
-        System.out.println("Sorted Array "+Arrays.toString(obj2.sorting(arr,n)));
+        System.out.println("Sorted Array "+Arrays.toString(obj3.sorting(arr,n)));
 
 
     }
