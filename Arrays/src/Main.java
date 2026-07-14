@@ -37,6 +37,13 @@ public class Main {
 //        System.out.println(Arrays.toString(arr));
 
 
+//        Q6--
+//        MoveZerosToEnd obj6= new MoveZerosToEnd();
+//        System.out.println(Arrays.toString(arr));
+//        obj6.moveElement(arr, n);
+//        System.out.println(Arrays.toString(arr));
+
+
 
 
     }
