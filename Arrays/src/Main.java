@@ -43,6 +43,10 @@ public class Main {
 //        obj6.moveElement(arr, n);
 //        System.out.println(Arrays.toString(arr));
 
+//        Q7--
+        LinerSearch obj7 =new LinerSearch();
+        System.out.println(obj7.search(arr, n, 8));
+
 
 
 
