@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -20,8 +21,14 @@ public class Main {
 //        System.out.println(obj2.secondLargestElement(arr));
 
 //        Q3--
-        IsArraySorted obj3=new IsArraySorted();
-        System.out.println(obj3.isSorted(arr));
+//        IsArraySorted obj3=new IsArraySorted();
+//        System.out.println(obj3.isSorted(arr));
+
+//        Q4--
+//        RemoveDuplicatesFromSortedArray obj4 =new RemoveDuplicatesFromSortedArray();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj4.remove(arr,n));
+//        System.out.println(Arrays.toString(arr));
 
 
 
