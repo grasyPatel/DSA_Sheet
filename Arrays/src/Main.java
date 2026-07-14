@@ -30,6 +30,12 @@ public class Main {
 //        System.out.println(obj4.remove(arr,n));
 //        System.out.println(Arrays.toString(arr));
 
+//        Q5--
+//        LeftRotateByOne obj5=new LeftRotateByOne();
+//        System.out.println(Arrays.toString(arr));
+//        obj5.rotate(arr,n);
+//        System.out.println(Arrays.toString(arr));
+
 
 
 
