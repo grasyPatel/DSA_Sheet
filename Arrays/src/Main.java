@@ -14,11 +14,11 @@ public class Main {
         for(int i=0;i<n;i++){
             arr1[i]=sc.nextInt();
         }
-        int m=sc.nextInt();
-        int arr2[]=new int[m];
-        for(int i=0;i<m;i++){
-            arr2[i]=sc.nextInt();
-        }
+//        int m=sc.nextInt();
+//        int arr2[]=new int[m];
+//        for(int i=0;i<m;i++){
+//            arr2[i]=sc.nextInt();
+//        }
 
 
 //        Q1--
@@ -57,10 +57,15 @@ public class Main {
 //        System.out.println(obj7.search(arr, n, 8));
 
 //        Q8--
-        UnionTwoSortedArray obj8=new UnionTwoSortedArray();
+//        UnionTwoSortedArray obj8=new UnionTwoSortedArray();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(arr2));
+//        System.out.println(Arrays.toString(obj8.unionOfArrays(arr1,arr2)));
+
+//        Q9--
+        FindMissingNumberRange0ton obj9=new FindMissingNumberRange0ton();
         System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(arr2));
-        System.out.println(Arrays.toString(obj8.unionOfArrays(arr1,arr2)));
+        System.out.println("Missing Number "+obj9.missingElement(arr1));
 
 
 
