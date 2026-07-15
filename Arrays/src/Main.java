@@ -63,9 +63,14 @@ public class Main {
 //        System.out.println(Arrays.toString(obj8.unionOfArrays(arr1,arr2)));
 
 //        Q9--
-        FindMissingNumberRange0ton obj9=new FindMissingNumberRange0ton();
+//        FindMissingNumberRange0ton obj9=new FindMissingNumberRange0ton();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println("Missing Number "+obj9.missingElement(arr1));
+
+//        Q10--
+        MaximumConsecutiveOnes obj10=new MaximumConsecutiveOnes();
         System.out.println(Arrays.toString(arr1));
-        System.out.println("Missing Number "+obj9.missingElement(arr1));
+        System.out.println("ConsecutiveOnes: "+obj10.countOne(arr1));
 
 
 
