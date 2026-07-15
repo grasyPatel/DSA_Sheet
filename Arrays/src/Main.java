@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Set;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -7,10 +8,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
-        int arr[]=new int[n];
+
+        int arr1[]=new int[n];
+
         for(int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
+            arr1[i]=sc.nextInt();
         }
+        int m=sc.nextInt();
+        int arr2[]=new int[m];
+        for(int i=0;i<m;i++){
+            arr2[i]=sc.nextInt();
+        }
+
 
 //        Q1--
 //        LargestElement obj1=new LargestElement();
@@ -44,8 +53,14 @@ public class Main {
 //        System.out.println(Arrays.toString(arr));
 
 //        Q7--
-        LinerSearch obj7 =new LinerSearch();
-        System.out.println(obj7.search(arr, n, 8));
+//        LinerSearch obj7 =new LinerSearch();
+//        System.out.println(obj7.search(arr, n, 8));
+
+//        Q8--
+        UnionTwoSortedArray obj8=new UnionTwoSortedArray();
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(obj8.unionOfArrays(arr1,arr2)));
 
 
 
