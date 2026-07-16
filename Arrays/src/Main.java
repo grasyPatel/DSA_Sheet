@@ -68,9 +68,15 @@ public class Main {
 //        System.out.println("Missing Number "+obj9.missingElement(arr1));
 
 //        Q10--
-        MaximumConsecutiveOnes obj10=new MaximumConsecutiveOnes();
-        System.out.println(Arrays.toString(arr1));
-        System.out.println("ConsecutiveOnes: "+obj10.countOne(arr1));
+//        MaximumConsecutiveOnes obj10=new MaximumConsecutiveOnes();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println("ConsecutiveOnes: "+obj10.countOne(arr1));
+
+//        Q11-
+//        SingleNumber1 obj11=new SingleNumber1();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println("Number appears ones:  "+obj11.findNumber(arr1));
+
 
 
 
