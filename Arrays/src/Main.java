@@ -77,6 +77,11 @@ public class Main {
 //        System.out.println(Arrays.toString(arr1));
 //        System.out.println("Number appears ones:  "+obj11.findNumber(arr1));
 
+//        Q12--
+        LongestSubArraySumk obj12=new LongestSubArraySumk();
+        System.out.println(Arrays.toString(arr1));
+        System.out.println("Size of Array: "+obj12.subArraySumWithK(arr1,15));
+
 
 
 
