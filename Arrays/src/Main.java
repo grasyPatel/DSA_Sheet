@@ -78,9 +78,15 @@ public class Main {
 //        System.out.println("Number appears ones:  "+obj11.findNumber(arr1));
 
 //        Q12--
-        LongestSubArraySumk obj12=new LongestSubArraySumk();
+//        LongestSubArraySumk obj12=new LongestSubArraySumk();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println("Size of Array: "+obj12.subArraySumWithK(arr1,15));
+
+//        Q13--
+        LeftRotateByK obj13=new LeftRotateByK();
         System.out.println(Arrays.toString(arr1));
-        System.out.println("Size of Array: "+obj12.subArraySumWithK(arr1,15));
+        System.out.println(Arrays.toString(obj13.rotateByK(arr1,2)));
+
 
 
 
