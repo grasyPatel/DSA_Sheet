@@ -14,7 +14,7 @@ public class SingleNumber1 {
 //            int value=entry.getValue();
 //            if(value==1){
 //                return entry.getKey();
-//            }
+//
 //        }
 //        return -1;
 
