@@ -83,9 +83,14 @@ public class Main {
 //        System.out.println("Size of Array: "+obj12.subArraySumWithK(arr1,15));
 
 //        Q13--
-        LeftRotateByK obj13=new LeftRotateByK();
+//        LeftRotateByK obj13=new LeftRotateByK();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(obj13.rotateByK(arr1,2)));
+
+//        Q14--
+        TwoSum obj14=new TwoSum();
         System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(obj13.rotateByK(arr1,2)));
+        System.out.println(Arrays.toString(obj14.twoSum1(arr1,0)));
 
 
 
