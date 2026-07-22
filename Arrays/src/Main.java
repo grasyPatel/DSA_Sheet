@@ -88,9 +88,15 @@ public class Main {
 //        System.out.println(Arrays.toString(obj13.rotateByK(arr1,2)));
 
 //        Q14--
-        TwoSum obj14=new TwoSum();
+//        TwoSum obj14=new TwoSum();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(obj14.twoSum1(arr1,0)));
+
+
+//        Q15--
+        Sort012 obj15=new Sort012();
         System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(obj14.twoSum1(arr1,0)));
+        System.out.println(Arrays.toString(obj15.sorting(arr1)));
 
 
 
