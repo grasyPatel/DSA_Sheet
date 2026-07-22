@@ -94,9 +94,14 @@ public class Main {
 
 
 //        Q15--
-        Sort012 obj15=new Sort012();
-        System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(obj15.sorting(arr1)));
+//        Sort012 obj15=new Sort012();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(obj15.sorting(arr1)));
+
+//        Q16--
+//        MajorityElement1 obj16=new MajorityElement1();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println("Majority Element: "+ obj16.findElement(arr1));
 
 
 
