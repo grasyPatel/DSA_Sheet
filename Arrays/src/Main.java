@@ -103,6 +103,10 @@ public class Main {
 //        System.out.println(Arrays.toString(arr1));
 //        System.out.println("Majority Element: "+ obj16.findElement(arr1));
 
+//        Q17--
+        KadansAlgo obj17=new KadansAlgo();
+        System.out.println(obj17.solution(arr1,n));
+
 
 
 
