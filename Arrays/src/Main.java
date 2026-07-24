@@ -104,8 +104,12 @@ public class Main {
 //        System.out.println("Majority Element: "+ obj16.findElement(arr1));
 
 //        Q17--
-        KadansAlgo obj17=new KadansAlgo();
-        System.out.println(obj17.solution(arr1,n));
+//        KadansAlgo obj17=new KadansAlgo();
+//        System.out.println(obj17.solution(arr1,n));
+
+//        Q18--
+        StockBuyAndSell obj18=new StockBuyAndSell();
+        System.out.println(obj18.solution(arr1));
 
 
 
