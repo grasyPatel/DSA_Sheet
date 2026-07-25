@@ -108,8 +108,14 @@ public class Main {
 //        System.out.println(obj17.solution(arr1,n));
 
 //        Q18--
-        StockBuyAndSell obj18=new StockBuyAndSell();
-        System.out.println(obj18.solution(arr1));
+//        StockBuyAndSell obj18=new StockBuyAndSell();
+//        System.out.println(obj18.solution(arr1));
+
+//        Q19--
+        RearrangeElementBySign obj19=new RearrangeElementBySign();
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(obj19.solution(arr1)));
+
 
 
 
