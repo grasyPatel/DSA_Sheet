@@ -8,12 +8,16 @@ public class Main {
         obj1.createList(4);
         obj1.createList(67);
         obj1.createList(88);
-
         obj1.display();
+//        Q1-----------------------
         System.out.println();
         InsertionAtHeadOfTheLinkedList obj2=new InsertionAtHeadOfTheLinkedList();
         obj1.head=obj2.solution(obj1.head,11);
-
+        obj1.display();
+//        Q2-----------------------
+        System.out.println();
+        DeleteTheHeadOfLinkedList obj3=new DeleteTheHeadOfLinkedList();
+        obj1.head=obj3.solution(obj1.head);
         obj1.display();
 
 
