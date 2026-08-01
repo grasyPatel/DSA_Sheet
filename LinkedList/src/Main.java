@@ -20,6 +20,14 @@ public class Main {
         obj1.head=obj3.solution(obj1.head);
         obj1.display();
 
+//        Q3-----------------------
+        System.out.println();
+        LengthOfTheLinkedList obj4 =new LengthOfTheLinkedList();
+        int len=obj4.solution(obj1.head);
+        System.out.println(len);
+
+
+
 
 
 
