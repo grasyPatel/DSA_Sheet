@@ -24,7 +24,11 @@ public class Main {
         System.out.println();
         LengthOfTheLinkedList obj4 =new LengthOfTheLinkedList();
         int len=obj4.solution(obj1.head);
-        System.out.println(len);
+        System.out.println("Length: "+len);
+
+//        Q4-----------------------
+        SearchInLinkedList obj5=new SearchInLinkedList();
+        System.out.println("Is Present: "+obj5.solution(obj1.head,9));
 
 
 
