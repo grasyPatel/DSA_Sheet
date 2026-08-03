@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s=sc.nextLine();
+        //String s=sc.nextLine();
 
 //        Q1--
 //        RemoveOuterMostParentheses obj1=new RemoveOuterMostParentheses();
@@ -18,9 +19,19 @@ public class Main {
 //        System.out.println("Reverse String: "+ obj2.solution(s) );
 
 //        Q3--
-        LargestOddNumberInString obj3=new LargestOddNumberInString();
-        System.out.println(s);
-        System.out.println(obj3.solution(s));
+//        LargestOddNumberInString obj3=new LargestOddNumberInString();
+//        System.out.println(s);
+//        System.out.println(obj3.solution(s));
+
+//        Q4-----------------------
+        int n= sc.nextInt();
+        String arr[]=new String[n];
+        for(int i=0;i<n;i++){
+            arr[i]= sc.next();
+        }
+        LongestCommonPrefix obj4=new LongestCommonPrefix();
+        System.out.println(Arrays.toString(arr));
+        System.out.println(obj4.solution(arr));
 
 
     }
