@@ -6,14 +6,14 @@ import java.util.Set;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n= sc.nextInt();
-
-        int arr1[]=new int[n];
-
-        for(int i=0;i<n;i++){
-            arr1[i]=sc.nextInt();
-        }
+//        Scanner sc=new Scanner(System.in);
+//        int n= sc.nextInt();
+//
+//        int arr1[]=new int[n];
+//
+//        for(int i=0;i<n;i++){
+//            arr1[i]=sc.nextInt();
+//        }
 //        int m=sc.nextInt();
 //        int arr2[]=new int[m];
 //        for(int i=0;i<m;i++){
@@ -112,9 +112,14 @@ public class Main {
 //        System.out.println(obj18.solution(arr1));
 
 //        Q19--
-        RearrangeElementBySign obj19=new RearrangeElementBySign();
-        System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(obj19.solution(arr1)));
+//        RearrangeElementBySign obj19=new RearrangeElementBySign();
+//        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(obj19.solution(arr1)));
+
+//        Q20--------------
+        int [][]matrix={{0,2,1,0},{3,4,6,2},{1,2,3,1}};
+        SetMatrixZeroes obj20=new SetMatrixZeroes();
+        obj20.solution(matrix);
 
 
 
