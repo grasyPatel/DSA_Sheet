@@ -117,9 +117,15 @@ public class Main {
 //        System.out.println(Arrays.toString(obj19.solution(arr1)));
 
 //        Q20--------------
-        int [][]matrix={{0,2,1,0},{3,4,6,2},{1,2,3,1}};
-        SetMatrixZeroes obj20=new SetMatrixZeroes();
-        obj20.solution(matrix);
+//        int [][]matrix={{0,2,1,0},{3,4,6,2},{1,2,3,1}};
+//        SetMatrixZeroes obj20=new SetMatrixZeroes();
+//        obj20.solution(matrix);
+
+//        Q21-----------------------
+
+        int [][]matrix={{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        RotateMatrixBy90Degree obj21=new RotateMatrixBy90Degree();
+        obj21.solution(matrix);
 
 
 
