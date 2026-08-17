@@ -6,14 +6,14 @@ import java.util.Set;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n= sc.nextInt();
-
-        int arr1[]=new int[n];
-
-        for(int i=0;i<n;i++){
-            arr1[i]=sc.nextInt();
-        }
+//        Scanner sc=new Scanner(System.in);
+//        int n= sc.nextInt();
+//
+//        int arr1[]=new int[n];
+//
+//        for(int i=0;i<n;i++){
+//            arr1[i]=sc.nextInt();
+//        }
 //        int m=sc.nextInt();
 //        int arr2[]=new int[m];
 //        for(int i=0;i<m;i++){
@@ -128,8 +128,14 @@ public class Main {
 //        obj21.solution(matrix);
 
 //        Q22----------------------
-        LeadersInArray obj22=new LeadersInArray();
-        obj22.solution(arr1);
+//        LeadersInArray obj22=new LeadersInArray();
+//        obj22.solution(arr1);
+
+//        Q23-------------------
+        int [][]matrix={{1,2,3},{4,5,6},{7,8,9}};
+        MatrixInSpiralManner obj23=new MatrixInSpiralManner();
+        obj23.solution(matrix);
+
 
 
 
