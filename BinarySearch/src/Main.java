@@ -13,9 +13,14 @@ public class Main {
         }
 
 //        Q1-------------------------------
-        SearchXElement obj1=new SearchXElement();
+//        SearchXElement obj1=new SearchXElement();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj1.solution(arr,-1));
+
+//        Q2-------------------------------------
+        LowerBound obj2=new LowerBound();
         System.out.println(Arrays.toString(arr));
-        System.out.println(obj1.solution(arr,-1));
+        System.out.println(obj2.solution(arr,4));
 
     }
 }
