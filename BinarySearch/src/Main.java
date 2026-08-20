@@ -24,9 +24,14 @@ public class Main {
 
 
 //        Q3--------------------------------
-        UpperBound obj3=new UpperBound();
+//        UpperBound obj3=new UpperBound();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj3.solution(arr,9));
+
+//         Q4-------------------------------
+        SearchInsertPosition obj4=new SearchInsertPosition();
         System.out.println(Arrays.toString(arr));
-        System.out.println(obj3.solution(arr,9));
+        System.out.println(obj4.solution(arr,2));
 
 
     }
