@@ -18,9 +18,16 @@ public class Main {
 //        System.out.println(obj1.solution(arr,-1));
 
 //        Q2-------------------------------------
-        LowerBound obj2=new LowerBound();
+//        LowerBound obj2=new LowerBound();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj2.solution(arr,4));
+
+
+//        Q3--------------------------------
+        UpperBound obj3=new UpperBound();
         System.out.println(Arrays.toString(arr));
-        System.out.println(obj2.solution(arr,4));
+        System.out.println(obj3.solution(arr,9));
+
 
     }
 }
