@@ -29,9 +29,15 @@ public class Main {
 //        System.out.println(obj3.solution(arr,9));
 
 //         Q4-------------------------------
-        SearchInsertPosition obj4=new SearchInsertPosition();
+//        SearchInsertPosition obj4=new SearchInsertPosition();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj4.solution(arr,2));
+
+//        Q5------------------------------
+        FirstAndLastOccurrence obj5=new FirstAndLastOccurrence();
         System.out.println(Arrays.toString(arr));
-        System.out.println(obj4.solution(arr,2));
+        System.out.println(Arrays.toString(obj5.solution(arr,8)));
+
 
 
     }
