@@ -34,9 +34,14 @@ public class Main {
 //        System.out.println(obj4.solution(arr,2));
 
 //        Q5------------------------------
-        FirstAndLastOccurrence obj5=new FirstAndLastOccurrence();
+//        FirstAndLastOccurrence obj5=new FirstAndLastOccurrence();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(obj5.solution(arr,8)));
+
+//        Q6-------------------------
+        CountOccurrenceOfTarget obj6=new CountOccurrenceOfTarget();
         System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(obj5.solution(arr,8)));
+        System.out.println(obj6.solution(arr,1));
 
 
 
