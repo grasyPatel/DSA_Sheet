@@ -39,9 +39,14 @@ public class Main {
 //        System.out.println(Arrays.toString(obj5.solution(arr,8)));
 
 //        Q6-------------------------
-        CountOccurrenceOfTarget obj6=new CountOccurrenceOfTarget();
+//        CountOccurrenceOfTarget obj6=new CountOccurrenceOfTarget();
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(obj6.solution(arr,1));
+
+//        Q7------------------------------
+        SearchInSortedArrayOne obj7= new SearchInSortedArrayOne();
         System.out.println(Arrays.toString(arr));
-        System.out.println(obj6.solution(arr,1));
+        System.out.println(obj7.solution(arr,5));
 
 
 
