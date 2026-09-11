@@ -35,8 +35,14 @@ public class Main {
 //        System.out.println(obj4.solution(arr));
 
 //        Q5-----------------
-        IsomorphicStrings obj5=new IsomorphicStrings();
-        System.out.println(obj5.solution(s,t));
+//        IsomorphicStrings obj5=new IsomorphicStrings();
+//        System.out.println(obj5.solution(s,t));
+
+//        Q6--------------------
+        AnagramStrings obj6=new AnagramStrings();
+        System.out.println("String: "+ s);
+        System.out.println("Target: "+t);
+        System.out.println(obj6.validAnagram(s,t));
 
 
     }

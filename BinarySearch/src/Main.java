@@ -19,7 +19,7 @@ public class Main {
 
 //        Q2-------------------------------------
 //        LowerBound obj2=new LowerBound();
-//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));h
 //        System.out.println(obj2.solution(arr,4));
 
 
