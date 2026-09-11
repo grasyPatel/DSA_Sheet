@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
-        String t=sc.next();
+//        String t=sc.next();
 
 //        Q1--
 //        RemoveOuterMostParentheses obj1=new RemoveOuterMostParentheses();
@@ -39,10 +39,15 @@ public class Main {
 //        System.out.println(obj5.solution(s,t));
 
 //        Q6--------------------
-        AnagramStrings obj6=new AnagramStrings();
-        System.out.println("String: "+ s);
-        System.out.println("Target: "+t);
-        System.out.println(obj6.validAnagram(s,t));
+//        AnagramStrings obj6=new AnagramStrings();
+//        System.out.println("String: "+ s);
+//        System.out.println("Target: "+t);
+//        System.out.println(obj6.validAnagram(s,t));
+
+//        Q7------------------------
+        MaxNestedDepthOfParenthesis obj7=new MaxNestedDepthOfParenthesis();
+        System.out.println("String: "+s);
+        System.out.println(obj7.solution(s));
 
 
     }
