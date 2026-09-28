@@ -37,9 +37,18 @@ public class Main {
 //        System.out.println(obj6.solution(obj1.head));
 
 //        Q6---------------------------
-        ReverseLinkedList obj7=new ReverseLinkedList();
-        obj1.head=obj7.solution(obj1.head);
+//        ReverseLinkedList obj7=new ReverseLinkedList();
+//        obj1.head=obj7.solution(obj1.head);
+//        obj1.display();
+
+//        Q7------------------------------------
+        DeleteTheKthElement obj8=new DeleteTheKthElement();
+        obj1.head=obj8.deleteElement(2,obj1.head);
         obj1.display();
+        System.out.println();
+        obj1.head=obj8.deleteElement(7,obj1.head);
+        obj1.display();
+
 
 
 
