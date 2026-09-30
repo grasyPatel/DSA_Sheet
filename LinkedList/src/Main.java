@@ -1,5 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         CreateLinkedList obj1=new CreateLinkedList();
@@ -42,12 +43,24 @@ public class Main {
 //        obj1.display();
 
 //        Q7------------------------------------
-        DeleteTheKthElement obj8=new DeleteTheKthElement();
-        obj1.head=obj8.deleteElement(2,obj1.head);
-        obj1.display();
+//        DeleteTheKthElement obj8=new DeleteTheKthElement();
+//        obj1.head=obj8.deleteElement(2,obj1.head);
+//        obj1.display();
+//        System.out.println();
+//        obj1.head=obj8.deleteElement(7,obj1.head);
+//        obj1.display();
+
+
+//        Q8------------------------------------
+        DeleteTheElementWithX obj9=new DeleteTheElementWithX();
+        obj1.head=obj9.deleteElement(10, obj1.head);
         System.out.println();
-        obj1.head=obj8.deleteElement(7,obj1.head);
         obj1.display();
+
+
+
+
+
 
 
 
