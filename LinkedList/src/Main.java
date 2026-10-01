@@ -52,8 +52,14 @@ public class Main {
 
 
 //        Q8------------------------------------
-        DeleteTheElementWithX obj9=new DeleteTheElementWithX();
-        obj1.head=obj9.deleteElement(10, obj1.head);
+//        DeleteTheElementWithX obj9=new DeleteTheElementWithX();
+//        obj1.head=obj9.deleteElement(10, obj1.head);
+//        System.out.println();
+//        obj1.display();
+
+//        Q9-------------------------------
+        InsertionAtTail obj10=new InsertionAtTail();
+        obj1.head=obj10.solution(6,obj1.head);
         System.out.println();
         obj1.display();
 
