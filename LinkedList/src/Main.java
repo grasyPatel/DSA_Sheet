@@ -58,8 +58,14 @@ public class Main {
 //        obj1.display();
 
 //        Q9-------------------------------
-        InsertionAtTail obj10=new InsertionAtTail();
-        obj1.head=obj10.solution(6,obj1.head);
+//        InsertionAtTail obj10=new InsertionAtTail();
+//        obj1.head=obj10.solution(6,obj1.head);
+//        System.out.println();
+//        obj1.display();
+
+//        Q10----------------------------
+        DeleteTheTail obj11=new DeleteTheTail();
+        obj1.head=obj11.solution(obj1.head);
         System.out.println();
         obj1.display();
 
